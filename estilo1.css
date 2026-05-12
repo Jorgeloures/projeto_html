@@ -1,0 +1,47 @@
+/* arquivo: estilo1.css */
+
+.principal{width: 1450px;margin: 100px auto;background-color: white;}
+
+body{margin: 0;padding: 0;font-family: Arial, Helvetica, sans-serif;background-color: #f4f4f4;font-size: 12px;border: 1px solid #e0e0e0;}
+
+/* TABELA PRINCIPAL */
+table{border-collapse: collapse;}
+
+/* topo */
+.topo{background-color: #ffffff;padding: 10px;border: 1px solid black;}
+.topo_esquerda{width: 15%;}
+.topo_esquerda_1{width: 5%;}
+.topo_direita{width: 7%;}
+.topo_direita_1{width: 3%;}
+.topo_centro{width: 25%;text-align: center;}
+
+/* menu lateral */
+.menu{width: 220px;background-color: #ffffff;vertical-align: top;padding: 10px;}
+.menu ul{list-style: none;padding: 0;margin: 0;}
+.menu ul li{padding: 7px;border-bottom: 1px solid #f0f0f0;}
+
+/* conteúdo */
+.conteudo{padding: 12px;background-color: #fafafa;}
+
+/* título */
+.titulo{font-size: 24px;margin-bottom: 15px;}
+
+/* produtos */
+.produtos{width: 100%;border-collapse: separate;border-spacing: 15px;}
+
+/* cards */
+.card{width: 250px;background-color: white;border: 1px solid #eeeeee;vertical-align: top;padding: 10px;}
+
+.imagem img{width: 100%;height: 170px;object-fit: cover;border: 1px solid #4806bb;}
+
+/* nome produto */
+.nome{font-size: 18px;font-weight: bold;margin-bottom: 8px;}
+.preco{font-size: 16px;margin-bottom: 8px;}
+.descricao{color: #666666;line-height: 20px;margin-bottom: 10px;}
+.botao{background-color: #2db84d;color: white;border: none;padding: 10px;width: 120px;cursor: pointer;}
+
+.pesquisa{display: flex;align-items: center;}
+.pesquisa input{width: 220px;padding: 8px;border: 1px solid #dddddd;border-right: none;}
+.pesquisa button{padding: 6px 10px;border: 1px solid #dddddd;background-color: white;cursor: pointer;}
+
+.logo{width: 80px;height: 50px;object-fit: contain;display: block;margin: 0 auto;}

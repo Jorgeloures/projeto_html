@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro de Produtos</title>
+
+    <link rel="stylesheet" href="estilo2.css">
+</head>
+
+<body>
+
+    <table class="principal" border="2">
+
+        <!-- TOPO -->
+        <tr>
+
+            <td class="topo" colspan="2">
+
+                <table width="100%">
+
+                    <tr>
+                        <td class="topo_esquerda">
+                        <div class="logo"><img src="logo.png"></div>
+                        </td>
+
+                        <td class="topo_esquerda_1">
+                        <div class="logo"><img src="logo_6.png"></div>
+                        </td>
+
+                        <td>
+                            <h2>ADICIONAR PRODUTO</h2>
+                        </td>
+
+                        <td class="topo_centro"><div class="pesquisa"><input type="text" placeholder="Pesquisar"><button type="submit">🔍</button></div>
+                        </td>
+
+                        <td class="topo_direita_1">
+                            <div><img src="logo_1.png"></div>
+                        </td>
+
+                        <td class="topo_direita">
+                            Usuário: JORGE
+                        </td>
+                    </tr>
+
+                </table>
+            </td>
+        </tr>
+
+        <!-- MENU + CONTEÚDO -->
+        <tr>
+
+            <!-- MENU -->
+            <td class="menu" valign="top">
+                <ul>
+                    <li>Painel de Controle</li>
+                    <li>Produtos</li>
+                    <li>Histórico de Pedidos</li>
+                    <li>Carrinho</li>
+                    <li>Clientes</li>
+                    <li>Adicionar Produto</li>
+                    <li>Avaliações</li>
+                    <li>Widgets</li>
+                    <li>Elementos UI</li>
+                </ul>
+
+            </td>
+
+            <!-- CONTEÚDO -->
+            <td class="conteudo" valign="top">
+
+                <h2>Informações do Produto</h2>
+
+                <!-- FORMULÁRIO -->
+                <div class="formulario">
+                    <table class="campos">
+
+                        <tr>
+                            <td>
+                                <label>Nome do Produto</label>
+                                <input type="text" placeholder="Digite o nome do produto">
+                            </td>
+                            <td>
+                                <label>Categoria</label>
+                                <select>
+                                    <option>Selecione a categoria</option>
+                                </select>
+                            </td>
+                        </tr>
+                        
+                        <tr>
+                            <td>
+                                <label>Preço</label>
+                                <input type="text" placeholder="Digite o preço">
+                            </td>
+                            
+                            <td>
+                                <label>Desconto</label>
+                                <input type="text" placeholder="Digite o desconto">
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td colspan="2">
+                                <label>Descrição do Produto</label>
+                                <textarea placeholder="Digite a descrição"></textarea>
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+
+                <br>
+
+                <!-- IMAGENS -->
+                <div class="upload">
+                    <h3>Imagens do Produto</h3>
+                    <div class="area_upload">
+                        Clique aqui ou arraste arquivos
+                    </div>
+                </div>
+
+                <br>
+
+                <!-- BOTÕES -->
+                <div class="botoes">
+                    <button class="cancelar">
+                        Cancelar
+                    </button>
+                    <button class="adicionar">
+                        Adicionar Produto
+                    </button>
+
+                </div>
+
+            </td>
+
+        </tr>
+
+    </table>
+
+</body>
+
+</html>

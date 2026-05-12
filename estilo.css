@@ -1,0 +1,40 @@
+/* arquivo: estilo.css */
+.principal{width: 1450px;margin: 100px auto;background-color: white;}
+
+body{margin: 0;padding: 0;font-family: Arial, Helvetica, sans-serif;background-color: #f4f4f4;font-size: 12px;border: 1px solid #e0e0e0;}
+
+/* TABELA PRINCIPAL */
+table{border-collapse: collapse;}
+
+/* MENU LATERAL */
+.menu{width: 220px;background-color: #ffffff;vertical-align: top;padding: 10px;border: 1px solid black;}
+.menu ul{list-style: none;padding: 0;}
+.menu ul li{padding: 7px;border-bottom: 1px solid #f0f0f0;;}
+
+.titulo{font-size: 24px;margin-bottom: 15px;}
+
+/* TOPO */
+.topo{background-color: #ffffff;padding: 10px;border: 1px solid black;}
+.topo_esquerda{width: 15%;}
+.topo_esquerda_1{width: 5%;}
+.topo_direita{width: 7%;}
+.topo_direita_1{width: 3%;}
+.topo_centro{width: 30%;text-align: center;}
+
+.pesquisa{display: flex;justify-content: center;}
+.pesquisa input{width: 220px;padding: 6px;border: 1px solid #dddddd;border-right: none;}
+.pesquisa button{padding: 6px 10px;border: 1px solid #dddddd;background-color: white;cursor: pointer;}
+
+/* CONTEÚDO */
+.conteudo{padding: 12px;border: 1px solid #e0e0e0;}
+
+/* CARDS */
+.cards td{background-color: #ffffff;padding: 20px;text-align: center;width: 25%;border: 1px solid #e0e0e0;}
+
+/* TABELA PEDIDOS */
+.pedidos{width: 100%;background-color: #ffffff;border: 1px solid #e0e0e0;}
+.pedidos th{background-color: #ffffff;padding: 13px;}
+.pedidos td{padding: 7px;text-align: center;border: 1px solid #e0e0e0;}
+
+.logo{width: 80px;height: 50px;object-fit: contain;display: block;margin: 0 auto;}
+
